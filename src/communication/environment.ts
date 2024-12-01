@@ -1,7 +1,7 @@
 import axios from "axios";
 import { DEV_API, PROD_API, DASH_API_DEV } from "./constants";
 
-export const baseUrl = DEV_API;
+export const baseUrl = PROD_API;
 export const newTab = DASH_API_DEV;
 
 export const httpGet = async ({path}:{path:string}) => {
