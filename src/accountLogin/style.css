@@ -1,0 +1,59 @@
+#signinContainer{
+    min-width: 300px;
+    width: 40vw;
+    padding: 30px 50px 50px 50px; 
+    box-shadow: 0px 0px 4px 2px rgb(236, 235, 235);
+    border-radius: 12px;
+}
+#signInHeader{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight:400;
+    font-size: smaller;
+    margin-left: 4px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px;
+}
+input{
+    border: none;
+    font-size: 12px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+}
+button{
+    border: none;
+    padding-block: 12px;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #4184f3;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    scale: 0.98;
+}
+#optionsUsers{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+    color: black;
+    font-weight: 500;
+}
+#optionsUsers:hover{
+    cursor: pointer;
+    color: #4184f3;
+}

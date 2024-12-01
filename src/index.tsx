@@ -11,6 +11,8 @@ import SupportPage from './landing_page/support/SupportPage';
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 import NotFound from './landing_page/NotFound';
+import AccountLoginPage from './accountLogin/AccountLoginPage';
+import ProfilePage from './profile/profilePage';
 
 const rootElement = document.getElementById('root');
 if (rootElement !== null) {
@@ -26,6 +28,8 @@ if (rootElement !== null) {
         <Route path='/products' element={<ProductPage/>}></Route>
         <Route path='/signup' element={<SignUpPage/>}></Route>
         <Route path='/support' element={<SupportPage/>}></Route>
+        <Route path='/accountLogin' element={<AccountLoginPage/>}></Route>
+        <Route path='/profile' element={<ProfilePage/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
       <Footer/>
