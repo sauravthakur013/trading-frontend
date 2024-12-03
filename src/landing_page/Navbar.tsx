@@ -62,7 +62,7 @@ function Navbar() {
               </li>
             </Link>
 
-            <Link to="/signup" style={{ textDecoration: "none" }}>
+            { !localStorage.getItem("token") && <Link to="/signup" style={{ textDecoration: "none" }}>
               <li className="nav-item">
                 <div
                   className={`nav-link ${
@@ -72,7 +72,7 @@ function Navbar() {
                   Signup
                 </div>
               </li>
-            </Link>
+            </Link>}
 
             <Link to="/about" style={{ textDecoration: "none" }}>
               <li className="nav-item">
